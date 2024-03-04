@@ -1,0 +1,45 @@
+
+.slider-cont{
+  width: 100%;
+  overflow: hidden;
+  .sliders{
+    padding: 3px 0;
+    display: flex;
+    gap: 10px;
+    .slider-images{
+      width: 90px;
+      height: 60px;
+      border-radius: 10px;     
+      cursor: pointer;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        user-select: none;
+      }
+    }
+  }
+}
+
+
+.prod-title-cont{
+  h4{
+    font-size: 14px;
+    color: #383838;
+  }
+}
+
+.slider-mian-image{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  img{
+    width: 100%;
+    height: 100%;
+    flex: 0 0 100%;
+    object-fit: contain;
+    user-select: none;
+    transition: 0.3s;
+  }
+}

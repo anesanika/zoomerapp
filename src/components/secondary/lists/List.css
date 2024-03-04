@@ -1,0 +1,20 @@
+.allList h1 {
+  color: #292929;
+  font-size: 14px;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+.allList ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-left: 5px;
+}
+.allList ul a {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+}/*# sourceMappingURL=List.css.map */

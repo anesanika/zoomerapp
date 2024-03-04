@@ -1,0 +1,28 @@
+@font-face{
+  font-family: Zoom;
+  src: url(./font/FiraGO-Regular.otf);
+}
+
+::-moz-progress-bar{
+  background-color: white;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ee571b65;
+  border-radius: 30px;
+  border: 3px solid #ffffff;
+}
+*{
+  font-family: Zoom;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+.content{
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}

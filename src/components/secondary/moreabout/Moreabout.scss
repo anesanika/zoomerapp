@@ -1,0 +1,38 @@
+.abouts-cont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  margin: 14px 0;
+}
+.about-prod-mian-title{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  h2{
+    font-size: 18px;
+    color: #2c2c2c;
+  }
+  i{
+    font-size: 20px;
+    color: #2c2c2c;
+    transition: .2s;
+  }
+}
+.about-drop-down{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  overflow: hidden;
+  transition: .2s;
+  .about-prod-second-title{
+    width: 30%;
+    font-size: 14px;
+    color: #575757;
+  }
+  .about-prod-answer{
+    color: #505050;
+    width: 70%;
+  }
+}

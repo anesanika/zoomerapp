@@ -1,0 +1,34 @@
+.res-card-cont {
+  width: 30.33333%;
+  height: 110px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  background-color: #eff9fa;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 2px;
+}
+.res-card-cont a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.res-card-cont p {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 9px;
+  color: #797979;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.res-card-cont .res-card-iamge {
+  width: 100%;
+}
+.res-card-cont .res-card-iamge img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Rescard.css.map */

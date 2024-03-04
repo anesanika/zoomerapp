@@ -1,0 +1,42 @@
+.abouts-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  margin: 14px 0;
+}
+
+.about-prod-mian-title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.about-prod-mian-title h2 {
+  font-size: 18px;
+  color: #2c2c2c;
+}
+.about-prod-mian-title i {
+  font-size: 20px;
+  color: #2c2c2c;
+  transition: 0.2s;
+}
+
+.about-drop-down {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.about-drop-down .about-prod-second-title {
+  width: 30%;
+  font-size: 14px;
+  color: #575757;
+}
+.about-drop-down .about-prod-answer {
+  color: #505050;
+  width: 70%;
+}/*# sourceMappingURL=Moreabout.css.map */
